@@ -1,0 +1,84 @@
+.msb_dialog.data-v-5fbce50f {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.8);
+}
+.msb_dialog .dialog_1.data-v-5fbce50f {
+  margin: 30rpx;
+  border-radius: 20rpx;
+  background: #fff;
+  position: relative;
+  top: 50%;
+  /*偏移*/
+  -webkit-transform: translateY(calc(-50% - 60rpx));
+          transform: translateY(calc(-50% - 60rpx));
+}
+.msb_dialog .dialog_1 .dialog_title.data-v-5fbce50f {
+  font-size: 32rpx;
+  font-weight: 600;
+  padding-top: 20rpx;
+  text-align: center;
+}
+.msb_dialog .dialog_1 .dialog_content.data-v-5fbce50f {
+  padding: 30rpx;
+}
+.msb_dialog .dialog_1 .dialog_btn.data-v-5fbce50f {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.msb_dialog .dialog_1 .dialog_btn .btn.data-v-5fbce50f {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  border-radius: 0;
+  color: #000;
+  background: none;
+}
+.msb_dialog .dialog_1 .dialog_btn .btn.data-v-5fbce50f::after {
+  border-radius: 0;
+}
+.msb_dialog .dialog_1 .dialog_btn .btn1.data-v-5fbce50f {
+  color: #666;
+}
+.msb_dialog .dialog_1 .dialog_btn .btn2.data-v-5fbce50f {
+  color: #3183FF;
+}
+
+.index.data-v-57280228 {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.index .add_question.data-v-57280228 {
+  padding: 0 30rpx;
+}
+.index .add_question .btn.data-v-57280228 {
+  background: #199d33;
+  padding: 30rpx;
+  line-height: 60rpx;
+  margin: 30rpx auto;
+  color: #fff;
+}
+.index .add_question .btn001.data-v-57280228 {
+  background: #3183ff;
+  padding: 30rpx;
+  line-height: 60rpx;
+  margin: 30rpx auto;
+  color: #fff;
+}
+

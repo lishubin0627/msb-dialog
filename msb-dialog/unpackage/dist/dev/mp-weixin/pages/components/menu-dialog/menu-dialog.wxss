@@ -1,0 +1,86 @@
+.msb_dialog.data-v-ca0482c6 {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.8);
+}
+.msb_dialog .dialog_1.data-v-ca0482c6 {
+  margin: 30rpx;
+  border-radius: 20rpx;
+  background: #fff;
+  position: relative;
+  top: 50%;
+  /*偏移*/
+  -webkit-transform: translateY(calc(-50% - 60rpx));
+          transform: translateY(calc(-50% - 60rpx));
+}
+.msb_dialog .dialog_1 .dialog_input.data-v-ca0482c6 {
+  margin: 0 30rpx 30rpx;
+  padding: 30rpx 20rpx;
+  border: 1rpx solid #ccc;
+}
+.msb_dialog .dialog_1 .dialog_title.data-v-ca0482c6 {
+  font-size: 32rpx;
+  font-weight: 600;
+  padding-top: 20rpx;
+  text-align: center;
+}
+.msb_dialog .dialog_1 .dialog_content.data-v-ca0482c6 {
+  padding: 30rpx;
+  display: -webkit-flex;
+  display: -webkit-box;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.msb_dialog .dialog_1 .dialog_content .content.data-v-ca0482c6 {
+  width: 160rpx;
+  line-height: 60rpx;
+  margin: 20rpx;
+  border-radius: 10rpx;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  border: 1rpx solid #666;
+}
+.msb_dialog .dialog_1 .dialog_content .active.data-v-ca0482c6 {
+  background: #3183ff;
+  border: none;
+  color: #fff;
+}
+.msb_dialog .dialog_1 .dialog_btn.data-v-ca0482c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.msb_dialog .dialog_1 .dialog_btn .btn.data-v-ca0482c6 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  border-radius: 0;
+  color: #000;
+  background: none;
+}
+.msb_dialog .dialog_1 .dialog_btn .btn.data-v-ca0482c6::after {
+  border-radius: 0;
+}
+.msb_dialog .dialog_1 .dialog_btn .btn1.data-v-ca0482c6 {
+  color: #666;
+}
+.msb_dialog .dialog_1 .dialog_btn .btn2.data-v-ca0482c6 {
+  color: #3183ff;
+}
+

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "dialog插件",
+  "usingComponents": {
+    "msb-dialog": "/pages/components/msb-dialog/msb-dialog",
+    "menu-dialog": "/pages/components/menu-dialog/menu-dialog"
+  }
+}
